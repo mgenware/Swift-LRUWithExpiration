@@ -25,7 +25,7 @@ DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
      📭 LRU (capacity: 2): [k1](expire: 3)
      
      Output:
-     LRUWithExpiration(Count: 2, Capacity: 2) {
+     LRUWithExpiration(Count: 1, Capacity: 2) {
         [k1: 1, expire: 3.0]
      }
      */

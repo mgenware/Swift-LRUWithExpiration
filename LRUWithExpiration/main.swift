@@ -29,7 +29,7 @@ lru.setValue(value: 3, forKey: "k3", expire: 1)
 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
     print(lru)
     /*
-     📭 LRU (capacity: 2): [k1](expire: 3)
+     📭 LRU (capacity: 1): [k1](expire: 3)
      
      Output:
      LRUWithExpiration(Count: 2, Capacity: 2) {
