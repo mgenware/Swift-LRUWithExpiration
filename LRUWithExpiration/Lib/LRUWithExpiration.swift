@@ -7,7 +7,11 @@
 //  https://github.com/mgenware/Swift-LRUWithExpiration
 //
 
-import Cocoa
+#if os(OSX)
+    import Cocoa
+#elseif os(iOS)
+    import Foundation
+#endif
 
 class LRUWithExpiration<Key, Value>: CustomStringConvertible where Key : Hashable {
     struct Node: CustomStringConvertible {
