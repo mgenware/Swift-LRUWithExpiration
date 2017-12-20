@@ -1,4 +1,7 @@
 # Swift-LRUWithExpiration
+
+[![Build Status](https://travis-ci.org/mgenware/Swift-LRUWithExpiration.svg?branch=master)](http://travis-ci.org/mgenware/Swift-LRUWithExpiration)
+
 A Swift LRU with Expiration
 
 ## Example
