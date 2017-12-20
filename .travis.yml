@@ -1,3 +1,2 @@
 language: objective-c
-xcode_project: LRUWithExpiration.xcodeproj
-xcode_scheme: LRUWithExpiration
+script: xcodebuild test -project LRUWithExpiration.xcodeproj -scheme LRUWithExpiration
