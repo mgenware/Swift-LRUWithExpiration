@@ -85,7 +85,7 @@ class LRUWithExpiration<Key, Value>: CustomStringConvertible where Key : Hashabl
     }
 }
 
-// MARKP - CustomStringConvertible
+// MARK: - CustomStringConvertible
 extension LRUWithExpiration {
     var description: String {
         var results = "LRUWithExpiration(Count: \(count), Capacity: \(capacity)) {\n"
