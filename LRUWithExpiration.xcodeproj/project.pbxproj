@@ -15,6 +15,16 @@
 		875662731FE401DA001C58AE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875662621FE3FD9B001C58AE /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5ACE8C6D2016450E00A4755D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8756624E1FE3FD26001C58AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875662551FE3FD26001C58AE;
+			remoteInfo = LRUWithExpiration;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		875662541FE3FD26001C58AE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -131,6 +141,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5ACE8C6E2016450E00A4755D /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = Tests;
@@ -207,6 +218,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACE8C6E2016450E00A4755D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875662551FE3FD26001C58AE /* LRUWithExpiration */;
+			targetProxy = 5ACE8C6D2016450E00A4755D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8756625B1FE3FD26001C58AE /* Debug */ = {
