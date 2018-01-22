@@ -13,7 +13,7 @@
     import Foundation
 #endif
 
-class LRUWithExpiration<Key, Value>: CustomStringConvertible where Key : Hashable {
+class LRUWithExpiration<Key, Value> where Key : Hashable {
     struct Node: CustomStringConvertible {
         var key: Key
         var value: Value
@@ -86,7 +86,7 @@ class LRUWithExpiration<Key, Value>: CustomStringConvertible where Key : Hashabl
 }
 
 // MARK: - CustomStringConvertible
-extension LRUWithExpiration {
+extension LRUWithExpiration: CustomStringConvertible {
     var description: String {
         var results = "LRUWithExpiration(Count: \(count), Capacity: \(capacity)) {\n"
         for (_, value) in nodeMap {
